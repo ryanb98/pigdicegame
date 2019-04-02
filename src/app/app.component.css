@@ -1,0 +1,9 @@
+.dice {
+  display: inline;
+  padding: 5px;
+}
+
+.roundscore {
+  margin-bottom: 20px;
+  padding-left: 15px
+}

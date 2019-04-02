@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>Welcome to pig-game</h1>
+  <div>
+    <p>Player 1</p> 
+    <p>{{players[0].currentScore}}</p>
+    <p>player 2</p> 
+    <p>{{players[1].currentScore}}</p>
+  </div>
+
+  </div>
+    <div class="roundscore">
+      {{ roundScore }}
+    </div>
+  <div>
+    <h4 class="dice">{{ dice1 }}</h4>
+    <h4 class="dice">{{ dice2 }}</h4>
+  </div>
+
+<button class="btn btn-success" (click)="rollDice()">Roll Dice</button>
+<button class="btn btn-warning" (click)="finishTurn()">Pass Turn</button>
+<button class="btn btn-success" (click)="newGame()">New Game</button>
